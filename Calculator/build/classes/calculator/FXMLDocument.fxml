@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="635.0" prefWidth="920.0" style="-fx-background-color: #00008b;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLDocumentController">
+   <children>
+      <Pane layoutX="-217.0" layoutY="292.0" prefHeight="284.0" prefWidth="327.0" rotate="137.2" style="-fx-background-color: #ff4500; -fx-background-radius: 15;" />
+      <Pane layoutX="318.0" layoutY="-238.0" prefHeight="417.0" prefWidth="433.0" rotate="47.9" style="-fx-background-color: #ff4500; -fx-background-radius: 15;" />
+      <Label fx:id="txtlabel" alignment="CENTER" contentDisplay="CENTER" layoutX="119.0" layoutY="62.0" prefHeight="63.0" prefWidth="659.0" style="-fx-background-color: #dcdcdc;" textAlignment="RIGHT">
+         <font>
+            <Font name="Verdana" size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="93.0" layoutY="180.0" mnemonicParsing="false" onAction="#btn1" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="1">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="93.0" layoutY="272.0" mnemonicParsing="false" onAction="#btn4" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="4">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="93.0" layoutY="364.0" mnemonicParsing="false" onAction="#btn7" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="7">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="93.0" layoutY="462.0" mnemonicParsing="false" onAction="#btn0" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="0">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="248.0" layoutY="180.0" mnemonicParsing="false" onAction="#btn2" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-radius: 25; -fx-border-width: 3; -fx-border-color: #2f61eb;" text="2">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="248.0" layoutY="272.0" mnemonicParsing="false" onAction="#btn5" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="5">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="248.0" layoutY="364.0" mnemonicParsing="false" onAction="#btn8" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="8">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="248.0" layoutY="462.0" mnemonicParsing="false" onAction="#btnmasmenos" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="+/-">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="180.0" mnemonicParsing="false" onAction="#btn3" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="3">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="272.0" mnemonicParsing="false" onAction="#btn6" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="6">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="364.0" mnemonicParsing="false" onAction="#btn9" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="9">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="461.0" mnemonicParsing="false" onAction="#btnpunto" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text=".">
+         <font>
+            <Font name="Times New Roman" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="562.0" layoutY="180.0" mnemonicParsing="false" onAction="#btnmas" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-radius: 25; -fx-border-color: #2f61eb; -fx-border-width: 3;" text="+">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="562.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnmenos" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="-">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="562.0" layoutY="364.0" mnemonicParsing="false" onAction="#btnmulti" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="*">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="562.0" layoutY="462.0" mnemonicParsing="false" onAction="#btndivi" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="/">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="721.0" layoutY="180.0" mnemonicParsing="false" onAction="#btnclear" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="C">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="721.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnclearE" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="CE">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="721.0" layoutY="364.0" mnemonicParsing="false" onAction="#btndiviinver" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="1/x">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="721.0" layoutY="462.0" mnemonicParsing="false" onAction="#btnigual" prefHeight="70.0" prefWidth="114.0" style="-fx-background-radius: 25; -fx-border-color: #2f61eb; -fx-border-radius: 25; -fx-border-width: 3;" text="=">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#infhandler" text="Info">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
